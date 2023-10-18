@@ -94,3 +94,27 @@ h2 {
   letter-spacing: -0.5px;
   margin-bottom: 1.6rem;
 }
+/* Increase font size for the dates in the popup calendar */
+.p-datepicker .p-datepicker-calendar td span,
+.p-datepicker .p-datepicker-calendar th span {
+  font-size: 1.2rem; /* Adjust this value to your preference */
+}
+
+/* Increase font size for the timepicker within the calendar if needed */
+.p-timepicker .p-dropdown-label,
+.p-timepicker .p-inputnumber-input {
+  font-size: 1.5rem; /* Adjust this value to your preference */
+}
+/* Custom styles to increase the size of the popup calendar */
+.p-datepicker {
+  font-size: 1rem; /* Adjust as needed */
+}
+
+.p-timepicker {
+  font-size: 0.7rem; /* Adjust as needed */
+}
+
+.p-datepicker td,
+.p-datepicker th {
+  padding: 0.7rem; /* Adjust as needed */
+}
